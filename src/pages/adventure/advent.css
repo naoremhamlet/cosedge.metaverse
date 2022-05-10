@@ -1,0 +1,29 @@
+.advent-header {
+  font-family: cfmedium;
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+.advent-desc {
+  font-family: Glory;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 400px) and (max-width: 690px) {
+  .advent-header {
+    font-size: 2.5rem;
+  }
+  .advent-desc {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .advent-header {
+    font-size: 1.8rem;
+  }
+  .advent-desc {
+    font-size: 1rem;
+  }
+}

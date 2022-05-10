@@ -1,0 +1,29 @@
+.design-header {
+  font-family: cfmedium;
+  font-size: 5rem;
+}
+
+.design-description {
+  font-family: Glory;
+  font-size: 1.7rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.design-img {
+  opacity: 1;
+  /* position: absolute; */
+  zindex: -1;
+  right: 0;
+}
+
+@media (max-width: 567px) {
+  .design-img {
+    position: absolute;
+
+    opacity: 0.4;
+  }
+  .design-header {
+    font-size: 3rem;
+  }
+}

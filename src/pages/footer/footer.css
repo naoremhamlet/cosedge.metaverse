@@ -1,0 +1,37 @@
+.footer-links {
+  margin-top: 5px;
+  font-size: 1.8rem;
+  font-family: Glory, sans-serif;
+}
+
+.footer-link-header {
+  font-family: cfmedium;
+  font-size: 2rem;
+}
+.footer-header {
+  font-family: Glory, sans-serif;
+  font-size: 1.8rem;
+  /* width: 60%; */
+}
+.footer-input-header {
+  font-family: cfmedium;
+  font-size: 2rem;
+}
+.footer-input {
+  background-color: transparent !important;
+  font-family: Glory, sans-serif !important;
+}
+.input-group-text {
+  font-family: cfmedium;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.icons {
+  max-height: 40px;
+}
+
+@media (max-width: 360px) {
+  .first-div {
+    margin: 0 !important;
+  }
+}

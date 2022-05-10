@@ -1,0 +1,47 @@
+.nav-link {
+  font-family: cfmedium;
+  font-size: 1.8rem;
+}
+.nav-border {
+  border-top: 1px solid #7d7a7b;
+  border-bottom: 1px solid #7d7a7b;
+}
+
+.btn-header {
+  background-color: transparent;
+  font-family: cfmedium;
+  font-size: 1rem;
+}
+
+.logo {
+  max-height: 80px;
+}
+.header-text {
+  font-family: cfmedium;
+  font-size: 2rem;
+}
+
+@media (max-width: 980px) {
+  .header-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-div {
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .btn-header {
+    background-color: #36454f;
+    z-index: 2;
+  }
+}

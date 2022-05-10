@@ -1,0 +1,30 @@
+.story-header {
+  font-family: cfmedium;
+  font-size: 1.5rem;
+}
+.story-desc {
+  font-family: cfmedium;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
+.story-subdescription-first {
+  font-family: cfmedium;
+  font-size: 0.8rem;
+}
+.story-subdescription-second {
+  font-family: cfmedium;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .story-desc {
+    font-size: 2rem;
+  }
+  .story-subdescription-first {
+    font-size: 0.6rem;
+  }
+  .story-subdescription-second {
+    font-size: 0.6rem;
+  }
+}

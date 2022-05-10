@@ -1,0 +1,9 @@
+.application-header {
+  font-family: cfmedium;
+  font-size: 1.8rem;
+}
+.app-div {
+  background: #000000;
+  /* mix-blend-mode: overlay; */
+  opacity: 1;
+}

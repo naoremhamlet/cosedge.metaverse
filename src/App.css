@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(90deg, #16181a 0%, #0d0d18 100%);
+  color: #fff;
+  overflow-y: scroll;
+  height: 100%;
+}
+.site-content-wrapper {
+  overflow-y: hidden;
+}
+@font-face {
+  font-family: cfmedium;
+  src: local("cfmedium"), url(./fonts/cfmedium.otf) format("opentype");
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
